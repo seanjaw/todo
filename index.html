@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src ="index.js"></script>
 </head>
 <body>
       <div class= "header">
           <h1>My Todo List</h1>
-          <input type="text" placeholder="Title...">
-          <span class="addBtn">Add</span>
+          <input id= "myInput" type="text" placeholder="Title...">
+          <span onclick ="newElement()"class="addBtn">Add</span>
       </div>
-      <ul>
+      <ul id="myUL">
         <li>Hit the gym</li>
         <li>Pay bills</li>
         <li>Meet George</li>
